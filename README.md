@@ -1,4 +1,4 @@
-![borntosec](assets/start_vm.png)
+![borntosec](assets/image_vm.png)
 
 <h1 align="center">
 Darkly 
