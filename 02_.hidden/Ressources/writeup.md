@@ -36,5 +36,5 @@ Nous avons donc fait la recherche d'un fichier contenant un chiffre (ici le 8) :
 ![grep -r "8" .*](../../assets/flag.hidden.png)
 
 <p><b> Solution : </b></p>
-Ne pas rendre ce genre de fichiers publique serait un bon début.  
-Utiliser un .htaccess est preferable.
+Ne pas rendre ce genre de fichiers publique serait un bon début.</br>
+Utiliser un .htaccess est préférable.
