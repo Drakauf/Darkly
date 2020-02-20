@@ -9,7 +9,7 @@ Une redirection se fait sur `http://<IP>/?page=media&src=nsa`
 Inspecter la page.  
 L'image est dans une balise `<object>` et non `<img>`.  
 
-<p><b> Caractéristiques de la balise <object></b></p>
+<p><b> Caractéristiques de la balise object :</b></p>
 
 ```
 Cet élément est conçu pour insérer toute sorte de document. On spécifie de quelle sorte avec l'attribut type en indiquant le type mime, et la source du document avec l'attribut data en indiquant son URI.
