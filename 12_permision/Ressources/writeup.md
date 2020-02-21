@@ -1,8 +1,8 @@
-# Faille permissions
+# Faille des permissions
 
 ## Le flag
 
-Dabord on a vérifié s'il y avait un fichier `robots.txt` utiliser pour donner des instructions aux `spiders` ou robots des moteurs de recherche.
+D'abord on a vérifié s'il y avait un fichier `robots.txt` utiliser pour donner des instructions aux `spiders` ou robots des moteurs de recherche.
 Sur le fichier `/robots.txt` il y avait deux instructions pour ne pas indexer deux dossiers.
 
 ```
@@ -17,9 +17,9 @@ Sur `http://10.2.8.38/whatever/` il y avait un fichier `htpasswd` avec des ident
 root:8621ffdbc5698829397d97767ac13db3
 ```
 
-On a décrypté ce qui ressamblait à un mot de passe en md5 et on a obtenu `dragon`.
+On a décrypté ce qui ressemblait à un mot de passe en md5 et on a obtenu `dragon`.
 
-Après avoir testé sur la page de login sans succèss on a utilisé l'util [dirb](https://github.com/v0re/dirb) pour voir les différentes parties du site.
+Après avoir testé sur la page de login sans succès, on a utilisé l'outil [dirb](https://github.com/v0re/dirb) pour voir les différentes parties du site.
 
 ```shell script
 -----------------
@@ -51,12 +51,12 @@ GENERATED WORDS: 4612
 [...]
 ```
 
-On peut voir qu'il y a une section `/admin`. Si on essaie de se connecter avec les idéntifiants `root` et `dragon` on voit le flag.
+On peut voir qu'il y a une section `/admin`. Si on essaie de se connecter avec les identifiants `root` et `dragon`, on aura le flag.
 
 ![flag admin](../../assets/flag_admin.png)
 
 ## Se protéger
 
-Il est important de ne pas laiser des informations importantes dans les dossiers publiques de notre site.
-On peut utiliser un fichier de configuration [htaccess](https://www.askapache.com/htaccess/htaccess-wikipedia/) pour restrindre l'accèss à certains endroits de notre site.
-Les informations stockées comme les mot de passe doivent être cryptés avec un algorytme robuste.
+Il est important de ne pas laisser des informations importantes dans les dossiers publiques de notre site.
+On peut utiliser un fichier de configuration [htaccess](https://www.askapache.com/htaccess/htaccess-wikipedia/) pour restreindre l'accès à certains endroits de notre site.
+Les informations stockées comme les mot de passe doivent être cryptés avec un algorithme robuste.
