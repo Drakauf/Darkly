@@ -5,4 +5,6 @@ Un utilisateur peut modifier la valeur d'une option et envoyer des données qui 
 Comme on dit toujours, `on ne doit jamais faire confiance aux données envoyées par l'utilisateur`.
 Si on ne fait pas des vérifications de ces données sur le serveur, on aura une faille.
 
+![Select value](../../assets/select_value.png)
+
 Pour éviter cette faille, il faut contrôler coté serveur si les valeurs reçues correspondent bien aux valeurs possibles.
