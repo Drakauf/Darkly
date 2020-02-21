@@ -32,7 +32,7 @@ Nous allons ensuite récupérer les noms de colones de la table `users` afin de 
 La table à donc 5 colones: ```user_id, first_name, last_name, town, country, planet, Commentaire et countersign``` 
 
 <p><b> Récuperation du flag :</b></p>
-Nous allons nous interesser a un utilisateur en particulier:
+Nous allons nous interesser a un utilisateur en particulier:  
 ![1_users](../../assets/1_users.png)
 id 5 et nom `Flag`... Curieux non ?
 
