@@ -12,6 +12,7 @@ Darkly
 |wget|http://jp.barralis.com/linux-man/man1/wget.1.php </br> https://stackoverflow.com/questions/273743/using-wget-to-recursively-fetch-a-directory-with-arbitrary-files-in-it|
 |La balise object|http://joliclic.free.fr/html/object-tag/|
 |Les user-agent|https://betanews.com/2017/03/22/user-agent-based-attacks-are-a-low-key-risk-that-shouldnt-be-overlooked/|
+|information_schema|https://mariadb.com/kb/en/information-schema-columns-table/|
 
 ----
 <p align="right">
