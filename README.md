@@ -15,4 +15,4 @@ Darkly
 
 ----
 <p align="right">
-Credits </br><a href="https://github.com/lpieri">cpieri</a>  <a href="https://github.com/leonardogb">lgarcia-</a>  <a href="https://github.com/Drakauf">shthevak</a>
+Credits </br><a href="https://github.com/lpieri">lpieri</a>  <a href="https://github.com/leonardogb">lgarcia-</a>  <a href="https://github.com/Drakauf">shthevak</a>
