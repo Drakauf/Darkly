@@ -36,4 +36,8 @@ La table à donc 3 colones, `id`, `username` et `password`.
 ![names_db_default](../../assets/names_db_default.png)
 Nous pouvons voir qu'il y a un user root et un user admin ayant la même valeur en password.
 `3bf1114a986ba87ed28fc1b5884fc2f8` est le cryptage MD5 de `shadow`.  
-Il nous reste donc à nous connecter avec le username `admin` ou `root` et le mot de passe `shadow` pour obtenir le flag.
+Il nous reste donc à nous connecter avec le username `admin` ou `root` et le mot de passe `shadow` pour obtenir le flag. 
+
+<p><b> Solutions : </b></p>
+Proteger les requetes sql en les préparant.
+Mettre un MFA (multi factor authentication).
