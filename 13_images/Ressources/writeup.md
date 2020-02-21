@@ -21,7 +21,7 @@ Nous pouvons constater qu'il y a 5 tables de type "BASE" : `db_default`, `users`
 
 <p><b> La base list_images :</b></p>
 
-Nous allons fouiller la base `list_images` afin d'y extraire des informations a notre avantage.
+Nous allons fouiller la base `list_images` afin d'y extraire des informations à notre avantage.
 Récuperons d'abord le nom de la base de donnée à laquelle appartient la table `list_images`:
 ![base_list_images](../../assets/base_list_images.png)
 
@@ -33,10 +33,10 @@ La table à donc 4 colones : ``` id, url, title et comment  ```
 
 <p><b> Récuperation du flag :</b></p>
 
-Nous allons recuperer des informations dans cette table
+Nous allons récupérer des informations dans cette table
 
 ![1_list_images](../../assets/1_list_images.png)
-`1928e8083cf461a51303633093573c46` est le md5 de `albatroz`
+`1928e8083cf461a51303633093573c46` est le md5 de `albatroz`  
 `albatroz` en sha256 donne `f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188`
 <p><b> Solutions : </b></p>
 Proteger les requetes sql en les préparant.
