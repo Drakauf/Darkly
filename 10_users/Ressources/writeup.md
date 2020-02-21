@@ -32,7 +32,8 @@ Nous allons ensuite récupérer les noms de colones de la table `users` afin de 
 La table à donc 5 colones: ```user_id, first_name, last_name, town, country, planet, Commentaire et countersign``` 
 
 <p><b> Récuperation du flag :</b></p>
-Nous allons nous interesser a un utilisateur en particulier:  
+Nous allons nous interesser a un utilisateur en particulier:
+
 ![1_users](../../assets/1_users.png)
 id 5 et nom `Flag`... Curieux non ?
 
@@ -43,7 +44,7 @@ nom `GetThe` town 42...
 country et planet aussi sont 42
 
 ![4_users](../../assets/4_users.png)
-hmmm, bien plus interessant un commentaire qui dit de decrypter le mot de passe, et de l'encrypter en sha256 apres avoir mis toutes lettres en minuscules.
+hmmm, bien plus interessant : un commentaire qui dit de decrypter le mot de passe, et de l'encrypter en sha256 apres avoir mis toutes lettres en minuscules.
 
 `5ff9d0165b4f92b14994e5c685cdce28` decrypte done `FortyTwo`.
 sha256 de `fortytwo` nous donne le flag `10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5`
