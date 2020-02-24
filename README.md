@@ -17,8 +17,9 @@ Darkly
 |La faille include|https://repo.zenk-security.com/Techniques%20d.attaques%20%20.%20%20Failles/Faille-include.pdf|
 |Les vulnerabilites web (injections)|https://www.vaadata.com/blog/fr/comprendre-les-vulnerabilites-web-en-5-min-episode-1-injections/|
 |Les failles php|https://repo.zenk-security.com/Techniques%20d.attaques%20%20.%20%20Failles/Webhacking:%20les%20failles%20php.pdf|
+|Redirections et renvois non validés|https://www.vaadata.com/blog/fr/comprendre-les-vulnerabilites-web-en-5-min-episode-10-redirections-et-renvois-non-valides/|
 
 ----
 <p align="right">
-Credits </br><a href="https://github.com/lpieri">lpieri</a>  <a href="https://github.com/leonardogb">lgarcia-</a>  <a href="https://github.com/Drakauf">shthevak</a>
+Credits </br> <a href="https://github.com/leonardogb">lgarcia-</a>  <a href="https://github.com/Drakauf">shthevak</a>
 </p>

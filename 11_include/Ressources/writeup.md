@@ -32,5 +32,5 @@ http://10.2.8.38/index.php?page=../../../../../../../etc/passwd
 
 ## Comment se protéger
 
-Pour corriger cette faille, le mieux est de vérifier que les pages que l'on inclut sont bien sur notre serveur, avec `file_exists()` ou d'avoir un tableau avec les pages autorisées.
+Pour corriger cette faille, le mieux est de vérifier que les pages que l'on inclut sont bien sur notre serveur, avec `file_exists()` et d'avoir un tableau avec les pages autorisées.
 Un autre moyen est d'utiliser un fichier `htaccess` pour faire des redirections.

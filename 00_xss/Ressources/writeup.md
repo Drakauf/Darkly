@@ -13,5 +13,7 @@ C'est le cas de la page de feedback et le code JavaScript sera exécuté sur tou
 
 * Faille XSS basée sur le DOM (DOM based XSS) : quand le code JavaScript n'est pas envoyé au serveur, mais il est exécuté sur le navigateur.
 
+## Comment se protéger
+
 Pour éviter ces attaques, il faut toujours faire attention à toutes les données qui proviennent de l'utilisateur.
 Dans ce cas, il faut "sanitizer" les informations de l'utilisateur avec des fonctions comme `htmlspecialchars` en PHP.
